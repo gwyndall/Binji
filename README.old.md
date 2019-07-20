@@ -1,0 +1,3 @@
+# Binji
+
+An app where people can share their favorite tv-shows/movies/podcasts. It is valuable because it makes it easier to look for programming to binge watch/listen to in a community of people sharing same interests. One can look at other people's recommendations and pick something to enjoy. A user is able to create a profile and filter programs by services/channels they receive, add/update _“Watchlist”_ and _“Recommendations”_ lists.  Future development may include integration of Facebook Friends lists, creation of custom program lists, and logic to make automated recommendations.
