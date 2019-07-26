@@ -1,0 +1,34 @@
+body, html {
+    margin: 0,auto;
+    background-color: #252525;
+    background-image: url("images/theater_cyan_gradient.jpg");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 30%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, (50, 50, 50, 0.8)z 0%, rgba(80, 80, 80, 0.2) );
+    /*background-image: linear-gradient(180deg,#14181c 0,#14181c 100px,#2c3440 101px);*/
+    height: 100%;
+}
+
+.center {
+    align-content: center;
+}
+
+.hp-blurb {
+    background-color: white;
+    border-radius: 15px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    width: 100%;
+    background-position-x: 50%;
+    margin-top: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.hp-blurb h1 {
+    color: #390068;
+    margin: 20px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 3em;
+}
