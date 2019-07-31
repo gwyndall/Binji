@@ -1,8 +1,17 @@
 {
   "name": "binji",
   "version": "0.1.0",
-  "description": "Binji App",
-  "main": "server.js",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "passport-facebook": "^3.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "sequelize": "^5.10.1"
+  },
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
@@ -19,10 +28,29 @@
     "concurrently": "^4.1.0",
     "nodemon": "^1.18.7"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "sequelize": "^5.10.1",
-    "express": "^4.16.3",
-    "if-env": "^1.0.4"
-  }
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "An app where people can share their favorite tv-shows/movies/podcasts. It is valuable because it makes it easier to look for programming to binge watch/listen to in a community of people sharing same interests. One can look at other people's recommendations and pick something to enjoy. A user is able to create a profile and filter programs by services/channels they receive, add/update _“Watchlist”_ and _“Recommendations”_ lists.  Future development may include integration of Facebook Friends lists, creation of custom program lists, and logic to make automated recommendations.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwyndall/Binji.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gwyndall/Binji/issues"
+  },
+  "homepage": "https://github.com/gwyndall/Binji#readme"
 }

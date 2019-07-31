@@ -40,11 +40,7 @@ class MainContainer extends Component {
   
   render() {
     return (
-      <Container>
-        <Header />
-        //Enter JSX here
-        <Footer />
-      </Container>
+      <p>hey</p>
     );
   }
 }
