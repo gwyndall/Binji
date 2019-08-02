@@ -1,7 +1,7 @@
 body, html {
     margin: 0,auto;
     background-color: #252525;
-    background-image: url("images/theater_cyan_gradient.jpg");
+    background-image: url("images/theater_purple_gradient.jpg");
     background-repeat: no-repeat;
     background-position-x: 50%;
     background-position-y: 30%;
@@ -14,21 +14,30 @@ body, html {
     align-content: center;
 }
 
+a.navbar-brand {
+    font-family: 'Oleo Script', cursive;
+    font-size: 2em;
+    color: #621197 !important;
+}
+
 .hp-blurb {
-    background-color: white;
+    /*background-color: white;
     border-radius: 15px;
     opacity: 0.5;
-    filter: alpha(opacity=50);
+    filter: alpha(opacity=50);*/
     width: 100%;
     background-position-x: 50%;
-    margin-top: 250px;
+    margin-top: 6%;
     padding: 20px;
     text-align: center;
 }
 
 .hp-blurb h1 {
-    color: #390068;
+    color: #ffffff;
     margin: 20px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 3em;
 }
+
+/*---------------CAROUSEL---------------*/
+
