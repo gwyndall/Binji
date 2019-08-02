@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "mongoose": "^5.6.7",
+    "morgan": "^1.9.1",
     "passport-facebook": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -35,10 +38,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "babel-loader": "^8.0.6",
-    "babel-preset-react": "^6.24.1",
-    "webpack": "^4.39.0",
-    "webpack-dev-server": "^3.7.2"
+    "babel-preset-react": "^6.24.1"
   },
   "repository": {
     "type": "git",
