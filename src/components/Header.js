@@ -1,6 +1,6 @@
 "use strict" 
 import React from "react";
-import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/Navbar';
+import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/NavBar';
 
 
 // function Header(props) {
@@ -11,13 +11,13 @@ import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/Navbar';
 //   );
 // }
 
-class Navbar extends React.Component{
+class NavBar extends React.Component{
   render(){
     return(
-<Navbar inverse fixedTop collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="/">Binji</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
+<NavBar inverse fixedTop collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <NavBar.Brand href="/">Binji</NavBar.Brand>
+  <NavBar.Toggle aria-controls="responsive-NavBar-nav" />
+  <NavBar.Collapse id="responsive-NavBar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/tv">TV</Nav.Link>
       <Nav.Link href="/film">Film</Nav.Link>
@@ -28,9 +28,9 @@ class Navbar extends React.Component{
       <Nav.Link eventKey={2} href="/mylist">My List
       <Badge className="badge">1</Badge></Nav.Link>
     </Nav>
-  </Navbar.Collapse>
-</Navbar>
+  </NavBar.Collapse>
+</NavBar>
     );
   }
 }
-export default Navbar;
+export default NavBar;

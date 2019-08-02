@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import API from "../utils/API";
+import Footer from "./Footer"
+import Header from "./Header"
 
 class MainContainer extends Component {
   state = {
@@ -40,11 +42,11 @@ class MainContainer extends Component {
   
   render() {
     return (
-      <Container>
+      <MainContainer>
         <Header />
         //Enter JSX here
         <Footer />
-      </Container>
+      </MainContainer>
     );
   }
 }

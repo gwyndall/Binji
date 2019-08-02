@@ -1,7 +1,9 @@
-var React = require('react');
+// var React = require('react');
 
 import React from "react";
 import MainContainer from "./components/MainContainer";
+import Navbar from 'components/Header'; 
+import Footer from 'components/Footer';
 
 function App() {
   return <MainContainer />;
@@ -9,13 +11,10 @@ function App() {
 
 export default App;
 
-import Navbar from 'components/Header'; 
-import Footer from 'components/Footer';
+// render(
+//   <div>
+//     <Navbar />
 
-render(
-  <div>
-    <Navbar />
-
-    <Footer />
-  </div>
-)
+//     <Footer />
+//   </div>
+// )
