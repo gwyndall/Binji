@@ -1,7 +1,4 @@
 body, html {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
     margin: 0,auto;
     background-color: #252525;
     background-image: url("images/theater_purple_gradient.jpg");
@@ -13,10 +10,6 @@ body, html {
     height: 100%;
 }
 
-main {
-    flex: 1 0 auto;
-  }
-
 .center {
     align-content: center;
 }
@@ -24,7 +17,7 @@ main {
 a.navbar-brand {
     font-family: 'Oleo Script', cursive;
     font-size: 2em;
-    color: #5d567f !important;
+    color: #621197 !important;
 }
 
 .hp-blurb {
