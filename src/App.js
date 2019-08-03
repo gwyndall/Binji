@@ -4,6 +4,8 @@ import React from "react";
 import { render } from "react-dom";
 import { Provider } from "react-redux"
 import MainContainer from "./components/MainContainer";
+import Navbar from 'components/Header'; 
+import Footer from 'components/Footer';
 
 function App() {
   return <MainContainer />;
@@ -24,3 +26,10 @@ render(
 );
 
 export default App;
+// render(
+//   <div>
+//     <Navbar />
+
+//     <Footer />
+//   </div>
+// )
