@@ -1,6 +1,3 @@
-import React, { Component } from "react";
-import API from "../utils/API";
-
 $(document).ready(function() {
   $("#searchButton").on("click", function(event) {
     event.preventDefault();
@@ -10,6 +7,13 @@ $(document).ready(function() {
       .trim();
 
     console.log(searchData);
+
+    const API_KEY = process.env.REACT_APP_API_KEY;
+
+    const BASEURL = "https://api.themoviedb.org/3/search/tv?api_key=";
+    const QUERYURL = "&language=en-US&query="
+
+    const queryURL = BASEURL + API_KEY + QUERYURL + query;
 
     function searchTV() {
       queryURL = queryURL.replace(/ /g, "%20");
