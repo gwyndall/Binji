@@ -2,20 +2,13 @@
 import React from "react";
 import {Nav, Navbar, Badge} from 'react-bootstrap';
 import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/NavBar';
+//import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/NavBar';
 
 
-// function Header(props) {
-//   return (
-//     <div>
-     
-//     </div>
-//   );
-// }
-
-class NavBar extends React.Component{
+class Header extends React.Component{
   render(){
     return(
-<NavBar inverse fixedTop collapseOnSelect expand="lg" bg="dark" variant="dark">
+/* <NavBar inverse fixedTop collapseOnSelect expand="lg" bg="dark" variant="dark">
   <NavBar.Brand href="/">Binji</NavBar.Brand>
   <NavBar.Toggle aria-controls="responsive-NavBar-nav" />
   <NavBar.Collapse id="responsive-NavBar-nav">
@@ -30,8 +23,10 @@ class NavBar extends React.Component{
       <Badge className="badge">1</Badge></Nav.Link>
     </Nav>
   </NavBar.Collapse>
-</NavBar>
-    );
+</NavBar> */
+
+"something"
+    )
   }
 }
-export default NavBar;
+export default Header;

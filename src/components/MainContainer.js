@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from "../utils/API";
 import Footer from "./Footer"
 import Header from "./Header"
 
@@ -42,11 +41,18 @@ class MainContainer extends Component {
   
   render() {
     return (
-      <MainContainer>
-        <Header />
-        //Enter JSX here
-        <Footer />
-      </MainContainer>
+      <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="hp-blurb">
+                        <img src="../images/logo-square-lg-white.png" alt="Binji" height="288" width="288"/>
+                        <h1>Search it. Binge it. Share it. Betches.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </main>
     );
   }
 }
