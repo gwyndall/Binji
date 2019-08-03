@@ -1,7 +1,5 @@
 "use strict" 
 import React from "react";
-import {Nav, Navbar, Badge} from 'react-bootstrap';
-import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/NavBar';
 //import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/NavBar';
 
 
