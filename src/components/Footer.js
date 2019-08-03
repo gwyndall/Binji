@@ -1,17 +1,24 @@
+"use strict"
 import React from "react";
 
-function Footer(props) {
-  return (
-    <footer class="page-footer font-small white">
+// function Footer(props) {
+//   return (
+//     <div>
+     
+//     </div>
+//   );
+// }
 
-      Copyright 
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
-          <a href="#">Binji</a>
+class Footer extends React.Components{
+  render(){
+    return(
+      <footer className="footer text-center">
+        <div className="container">
+          <p className="footer-text">© 2019 Copyright: Binji</p>
         </div>
-         Copyright 
-      
       </footer>
-  );
+    );
+  }
 }
 
 export default Footer;
