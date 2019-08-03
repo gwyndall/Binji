@@ -1,6 +1,6 @@
 "use strict" 
 import React from "react";
-import {Nav, NavItem, Navbar, Badge} from 'react-bootstrap/Navbar';
+import {Nav, Navbar, Badge} from 'react-bootstrap';
 
 
 // function Header(props) {

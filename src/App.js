@@ -1,21 +1,26 @@
-var React = require('react');
+// var React = require('react');
 
 import React from "react";
+import { render } from "react-dom";
+import { Provider } from "react-redux"
 import MainContainer from "./components/MainContainer";
 
 function App() {
   return <MainContainer />;
 }
 
-export default App;
 
-import Navbar from 'components/Header'; 
+import Navbar from 'components/Header';
 import Footer from 'components/Footer';
 
 render(
-  <div>
-    <Navbar />
+  <Provider store={store}>
+    <div>
+      <Navbar />
 
-    <Footer />
-  </div>
-)
+      <Footer />
+    </div>
+  </Provider>, document.getElementById('app')
+);
+
+export default App;
